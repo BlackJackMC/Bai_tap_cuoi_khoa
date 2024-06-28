@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css">
+    <script src="index.js"></script>
+    <title>Document</title>
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <!-- <p>Home</p> -->
+     
+    <main>
+        <div id="top-bar">
+            <div id="brand">
+                <img id="logo" src="logo.png" alt="">
+                <h3><b id="furniro">Furniro</b></h3>
+            </div>
+            <div id="top-bar-menu">                  
+                <ul class="heading-link">
+                    <a href="index.html"><li><b>Home</b></li></a>
+                    <a href="shop.html"><li><b>Shop</b></li></a>
+                    <a href="blog.html"><li><b>Blog</b></li></a>
+                    <a href="contact.html"><li><b>Contact</b></li></a>
+                </ul>
+            </div>
+            <div class="icon">
+                <img src="Screenshot 2024-06-07 185124.png" alt="">
+                <img src="Screenshot 2024-06-07 185130.png" alt="">
+                <img src="Screenshot 2024-06-07 185139.png" alt="">
+                <a href="cart.html"><img src="Screenshot 2024-06-07 185145.png" alt=""></a>
+            </div>
+         </div>
+        
+        <!-- <hr> -->
+        <div id="banner">
+            <!-- <img id="headerbkg" src="headerbkg.png" alt=""> -->
+            <!-- <img id="hcn" src="hcn.png" alt=""> -->
+            <div id="banner-bkg">
+            </div>
+            <div id="new-arrival">
+                <p><b>New Arrival</b></p>
+                <h1><b>Discover Our <br> New Collection</b></h1>
+                <p id="intro">Lorem ipsum dolor sit amet, consecteur adipsicing elit. Ut <br> elit tellus, luctus nec ullamcorper mattis.</p>
+                <button id="buy-now-btn"><b>BUY NOW</b></button>
+            </div>
+            
+        </div>
+        <section id="section">
+            <h2 id="section-title">Browse The Range</h2>
+            <p id="section-description">Lorem ipsum dolor sit amet, consectetur adipsicing elit.</p>
+        
+            <div class="room-intro">
+                <img class="room-image" id="dining-image" src="Screenshot 2024-06-07 191507.png" alt="Dining Room">
+                <h5 class="room-intro-name-1">Dining</h5>
+            </div>
+            <div class="room-intro">
+                <img class="room-image" id="living-image" src="Screenshot 2024-06-07 191524.png" alt="Lining Room">
+                <h5 class="room-intro-name-2">Living</h5>
+            </div>
+            <div class="room-intro">
+                <img class="room-image" id="bedroom-image" src="Screenshot 2024-06-07 191533.png" alt="Bedroom">
+                <h5 class="room-intro-name-3">Bedroom</h5>
+            </div>
+        </section>
+        <section id="section-2">
+            <h2 id="section-2-title">Our Products</h2>
+            <div class="row">
+                <div class="column" id="column-1">
+                    <div class="card-1">
+                    <div class="product-container" id="sylthe">
+                        <img class="product-image" src="syltherine.png" alt="Sylthe">
+                        <span class="sale">
+                            <p>-30%</p>
+                        </span>
+                        <h3 class="product-name">Syltherine</h3>
+                        <p class="product-description">Stylish cafe chair</p>
+                        <h4 class="product-price">Rp 2.500.000</h4>
+                        <p class="product-old-price"><del>Rp 3.000.000</del></p>
+                        <div class="add-to-cart">
+                            <button id="add-to-cart-button">Add to cart</button>
+                            <br>
+                            <ul>
+                                <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                <li><i class='bx bx-git-compare'></i>Compare</li>
+                                <li><button onclick="Toggle1()"><i id="like-button" class='bx bx-heart'></i>Like</button></li>
+                            </ul>
+                            <br>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card-2">
+                    <div class="product-container" id="leviosa">
+                        <img class="product-image" src="leviosa.png" alt="Leviosa">
+                        <!-- <span class="sale">
+                            <p></p>
+                        </span> -->
+                        <h3 class="product-name">Leviosa</h3>
+                        <p class="product-description">Stylish cafe chair</p>
+                        <h4 class="product-price">Rp 2.500.000</h4>
+                        <p class="product-old-price"><del></del></p>
+                        <div class="add-to-cart">
+                            <button id="add-to-cart-button">Add to cart</button>
+                            <br>
+                            <ul>
+                                <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                <li><i class='bx bx-git-compare'></i>Compare</li>
+                                <li><button onclick="Toggle2()" ><i id="like-button-2" class='bx bx-heart'></i>Like</button></li>
+                            </ul>
+                            <br>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card-3">
+                    <div class="product-container" id="lolito">
+                        <img class="product-image" src="sofa.png" alt="Lolito">
+                        <span class="sale">
+                            <p>-50%</p>
+                        </span>
+                        <h3 class="product-name">Lolito</h3>
+                        <p class="product-description">Luxury big sofa</p>
+                        <h4 class="product-price">Rp 7.000.000</h4>
+                        <p class="product-old-price"><del>Rp 14.000.000</del></p>
+                        <div class="add-to-cart">
+                            <button id="add-to-cart-button">Add to cart</button>
+                            <br>
+                            <ul>
+                                <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                <li><i class='bx bx-git-compare'></i>Compare</li>
+                                <li><button onclick="Toggle3()"><i id="like-button-3" class='bx bx-heart'></i>Like</button></li>
+                            </ul>
+                            <br>
+                        </div>
+                    </div>
+                </div> 
+                    <div class="card-4">         
+                    <div class="product-container" id="zephyr">
+                        <img class="product-image" src="zephyr.png" alt="Zephyr">
+                        <!-- <span class="sale">
+                            <p>New</p>
+                        </span> -->
+                        <h3 class="product-name">Respira</h3>
+                        <p class="product-description">Outdoor bar table and stool</p>
+                        <h4 class="product-price">Rp 500.000</h4>
+                        <p class="product-old-price"><del></del></p>
+                        <div class="add-to-cart">
+                            <button id="add-to-cart-button">Add to cart</button>
+                            <br>
+                            <ul>
+                                <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                <li><i class='bx bx-git-compare'></i>Compare</li>
+                                <li><button onclick="Toggle4()" ><i id="like-button-4" class='bx bx-heart'></i>Like</button></li>
+                            </ul>
+                            <br>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="card-5">         
+                        <div class="product-container" id="grifo">
+                            <img class="product-image" src="grifo.png" alt="Grifo">
+                            <!-- <span class="sale">
+                                <p>New</p>
+                            </span> -->
+                            <h3 class="product-name">Grifo</h3>
+                            <p class="product-description">Night lamp</p>
+                            <h4 class="product-price">Rp 1.500.000</h4>
+                            <p class="product-old-price"><del></del></p>
+                            <div class="add-to-cart">
+                                <button id="add-to-cart-button">Add to cart</button>
+                                <br>
+                                <ul>
+                                    <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                    <li><i class='bx bx-git-compare'></i>Compare</li>
+                                    <li><button onclick="Toggle5()" ><i id="like-button-5" class='bx bx-heart'></i>Like</button></li>
+                                </ul>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card-6">         
+                        <div class="product-container" id="muggo">
+                            <img class="product-image" src="muggo.png" alt="Muggo">
+                            <!-- <span class="sale">
+                                <p>New</p>
+                            </span> -->
+                            <h3 class="product-name">Muggo</h3>
+                            <p class="product-description">Small mug</p>
+                            <h4 class="product-price">Rp 150.000</h4>
+                            <p class="product-old-price"><del></del></p>
+                            <div class="add-to-cart">
+                                <button id="add-to-cart-button">Add to cart</button>
+                                <br>
+                                <ul>
+                                    <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                    <li><i class='bx bx-git-compare'></i>Compare</li>
+                                    <li><button onclick="Toggle6()" ><i id="like-button-6" class='bx bx-heart'></i>Like</button></li>
+                                </ul>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="card-7">         
+                        <div class="product-container" id="pingky">
+                            <img class="product-image" src="pingky.png" alt="Pingky">
+                            <span class="sale">
+                                <p>-50%</p>
+                            </span> 
+                            <h3 class="product-name">Pingky</h3>
+                            <p class="product-description">Cute bed set</p>
+                            <h4 class="product-price">Rp 7.000.000</h4>
+                            <p class="product-old-price"><del>Rp 14.000.000</del></p>
+                            <div class="add-to-cart">
+                                <button id="add-to-cart-button">Add to cart</button>
+                                <br>
+                                <ul>
+                                    <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                    <li><i class='bx bx-git-compare'></i>Compare</li>
+                                    <li><button onclick="Toggle7()" ><i id="like-button-7" class='bx bx-heart'></i>Like</button></li>
+                                </ul>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-8">         
+                        <div class="product-container" id="potty">
+                            <img class="product-image" src="potty.png" alt="Potty">
+                            <!-- <span class="sale">
+                                <p>New</p>
+                            </span> -->
+                            <h3 class="product-name">Potty</h3>
+                            <p class="product-description">Minimalist flower pot</p>
+                            <h4 class="product-price">Rp 500.000</h4>
+                            <p class="product-old-price"><del></del></p>
+                            <div class="add-to-cart">
+                                <button id="add-to-cart-button">Add to cart</button>
+                                <br>
+                                <ul>
+                                    <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                    <li><i class='bx bx-git-compare'></i>Compare</li>
+                                    <li><button onclick="Toggle8()" ><i id="like-button-8" class='bx bx-heart'></i>Like</button></li>
+                                </ul>
+                                <br>
+                            </div>
+                        </div>
+                    </div>
+                    <span id="dots">...</span>
+                    <div id="more">
+                    <div class="card-9">
+                        <div class="product-container" id="sylthe">
+                            <img class="product-image" src="syltherine.png" alt="Sylthe">
+                            <span class="sale">
+                                <p>-30%</p>
+                            </span>
+                            <h3 class="product-name">Syltherine</h3>
+                            <p class="product-description">Stylish cafe chair</p>
+                            <h4 class="product-price">Rp 2.500.000</h4>
+                            <p class="product-old-price"><del>Rp 3.000.000</del></p>
+                            <div class="add-to-cart">
+                                <button id="add-to-cart-button">Add to cart</button>
+                                <br>
+                                <ul>
+                                    <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                    <li><i class='bx bx-git-compare'></i>Compare</li>
+                                    <li><button onclick="Toggle9()" ><i id="like-button-9" class='bx bx-heart'></i>Like</button></li>
+                                </ul>
+                                <br>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card-10">
+                        <div class="product-container" id="leviosa">
+                            <img class="product-image" src="leviosa.png" alt="Leviosa">
+                            <!-- <span class="sale">
+                                <p></p>
+                            </span> -->
+                            <h3 class="product-name">Leviosa</h3>
+                            <p class="product-description">Stylish cafe chair</p>
+                            <h4 class="product-price">Rp 2.500.000</h4>
+                            <p class="product-old-price"><del></del></p>
+                            <div class="add-to-cart">
+                                <button id="add-to-cart-button">Add to cart</button>
+                                <br>
+                                <ul>
+                                    <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                    <li><i class='bx bx-git-compare'></i>Compare</li>
+                                    <li><button onclick="Toggle10()" ><i id="like-button-10" class='bx bx-heart'></i>Like</button></li>
+                                </ul>
+                                <br>
+                            </div>
+                        </div>
+                        </div>
+                        <div class="card-11">
+                        <div class="product-container" id="lolito">
+                            <img class="product-image" src="sofa.png" alt="Lolito">
+                            <span class="sale">
+                                <p>-50%</p>
+                            </span>
+                            <h3 class="product-name">Lolito</h3>
+                            <p class="product-description">Luxury big sofa</p>
+                            <h4 class="product-price">Rp 7.000.000</h4>
+                            <p class="product-old-price"><del>Rp 14.000.000</del></p>
+                            <div class="add-to-cart">
+                                <button id="add-to-cart-button">Add to cart</button>
+                                <br>
+                                <ul>
+                                    <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                    <li><i class='bx bx-git-compare'></i>Compare</li>
+                                    <li><button onclick="Toggle11()"><i  id="like-button-11" class='bx bx-heart'></i>Like</button></li>
+                                </ul>
+                                <br>
+                            </div>
+                        </div>
+                    </div> 
+                        <div class="card-12">         
+                        <div class="product-container" id="zephyr">
+                            <img class="product-image" src="zephyr.png" alt="Zephyr">
+                            <!-- <span class="sale">
+                                <p>New</p>
+                            </span> -->
+                            <h3 class="product-name">Respira</h3>
+                            <p class="product-description">Outdoor bar table and stool</p>
+                            <h4 class="product-price">Rp 500.000</h4>
+                            <p class="product-old-price"><del></del></p>
+                            <div class="add-to-cart">
+                                <button id="add-to-cart-button">Add to cart</button>
+                                <br>
+                                <ul>
+                                    <li><i class='bx bx-share-alt' ></i></i>Share</li>
+                                    <li><i class='bx bx-git-compare'></i>Compare</li>
+                                    <li><button onclick="Toggle12()" ><i id="like-button-12" class='bx bx-heart'></i>Like</button></li>
+                                </ul>
+                                <br>
+                            </div>
+                        </div>
+                        </div>   
+                    </div> 
+                </div>
+            </div>
+            <button onclick="myFunction()" id="show-more">Show More</button>
+        </section>
+    </main>
+    <hr>
+    <footer>
+        <h3 id="footer-heading-1">Furniro.</h3>
+        <p id="address">400 University Drive Suite 200 Coral <br> Gables, <br> FL 33134 USA</p>
+        <nav id="footer-nav">
+            <div class="footer-nav-container-1" id="footer-link-nav">
+                <p class="footer-nav-heading-1">Links</p>
+                <br>
+                <ul class="footer-nav-list">
+                    <li><a class="footer-nav-link" href="index.html">Home</a></li>
+                    <br>
+                    <li><a class="footer-nav-link" href="shop.html">Shop</a></li>
+                    <br>
+                    <li><a class="footer-nav-link" href="about.html">About</a></li>
+                    <br>
+                    <li><a class="footer-nav-link" href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-nav-container-2" id="footer-help-nav">
+                <p class="footer-nav-heading-2">Helps</p>
+                <br>
+                <ul class="footer-nav-list">
+                    <li><a class="footer-nav-link" href="Payment-Options.html">Payment Options</a></li>
+                    <br>
+                    <li><a class="footer-nav-link" href="Returns.html">Returns</a></li>
+                    <br>
+                    <li><a class="footer-nav-link" href="Privacy-Policies.html">Privacy Policies</a></li>
+                </ul>
+            </div>
+            <form class="footer-nav-container-3" action="" method="get">
+                <p class="footer-nav-heading-3">Newsletter</p>
+                <br>
+                <input type="text" placeholder="Enter Your Email Address">
+                <button id="subscribe-button">SUBSCRIBE</button>
+            </form>
+            <hr>
+        </nav>
+    </footer>
+    <h6 id="copy-right">2023 furino. All rights reverved.</h6>
+</body>
+<script>
+var btn1 = document.getElementById('like-button');
+   function Toggle1(){
+             if (btn1.style.color=="red"){
+               btn1.style.color == "white"
+             }
+             else{
+               btn1.style.color="red"
+             }
+   }
+var btn2 = document.getElementById('like-button-2');
+function Toggle2(){
+            if (btn2.style.color=="red"){
+            btn2.style.color == "white"
+            }
+            else{
+            btn2.style.color="red";
+            }
+}
+var btn3 = document.getElementById('like-button-3');
+function Toggle3(){
+            if (btn3.style.color=="red"){
+            btn3.style.color == "white"
+            }
+            else{
+            btn3.style.color="red"
+            }
+}
+var btn4 = document.getElementById('like-button-4');
+function Toggle4(){
+            if (btn4.style.color=="red"){
+            btn4.style.color == "white"
+            }
+            else{
+            btn4.style.color="red"
+            }
+}
+var btn5 = document.getElementById('like-button-5');
+function Toggle5(){
+            if (btn5.style.color=="red"){
+            btn5.style.color == "white"
+            }
+            else{
+            btn5.style.color="red"
+            }
+}
+var btn6 = document.getElementById('like-button-6');
+function Toggle6(){
+            if (btn6.style.color=="red"){
+            btn6.style.color == "white"
+            }
+            else{
+            btn6.style.color="red"
+            }
+}
+var btn7 = document.getElementById('like-button-7');
+function Toggle7(){
+            if (btn7.style.color=="red"){
+            btn7.style.color == "white"
+            }
+            else{
+            btn7.style.color="red"
+            }
+}
+var btn8 = document.getElementById('like-button-8');
+function Toggle8(){
+            if (btn8.style.color=="red"){
+            btn8.style.color == "white"
+            }
+            else{
+            btn8.style.color="red"
+            }
+}
+var btn9 = document.getElementById('like-button-9');
+function Toggle9(){
+            if (btn9.style.color=="red"){
+            btn9.style.color == "white"
+            }
+            else{
+            btn9.style.color="red"
+            }
+}
+var btn10 = document.getElementById('like-button-10');
+function Toggle10(){
+            if (btn10.style.color=="red"){
+            btn10.style.color == "white"
+            }
+            else{
+            btn10.style.color="red"
+            }
+}
+var btn11 = document.getElementById('like-button-11');
+function Toggle11(){
+            if (btn11.style.color=="red"){
+            btn11.style.color == "white"
+            }
+            else{
+            btn11.style.color="red"
+            }
+}
+var btn12 = document.getElementById('like-button-12');
+function Toggle12(){
+            if (btn12.style.color=="red"){
+            btn12.style.color == "white"
+            }
+            else{
+            btn12.style.color="red"
+            }
+}
+</script>
+</html>

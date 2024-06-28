@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    word-break: break-all;
+    overflow-x: hidden;
+}
+head{
+    word-break: break-all;
+    overflow-x: hidden;
+}
+.header{
+    /* width: 400px; */
+    /*display: inline-block; */
+}
+#logo{
+    width: 50px;
+    height: 32px;
+    float: left;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color:black;
+}
+#furniro{
+    font-family: "montserrat";
+    width: 130px;
+    height: 41px;
+    font-size: 32px;
+    margin-left: 10px;
+    margin-top: -5px;
+    /* float: left; */
+    text-align: center;
+}
+.heading-link{
+    font-family: "montserrat";
+    width: 430px;
+    height: 24px;
+    margin-left: 350px;
+    padding-bottom: 5px;
+    float: left;
+    text-align: center;
+}
+.icon{
+    float: left;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 110px;
+}
+.heading-link li{
+    display: inline-block;
+    margin-right: 50px;
+}
+.icon img {
+    width: 30px;
+    height: 28px;
+    margin-right: 20px;
+  }
+  span.header{
+    display: inline;
+  }
+
+  #top-bar {
+    margin-bottom: 100px;
+  }
+#top-bar-menu {
+    margin-top: -85px;
+}
+#banner-bkg{
+    margin-left: -6px;
+    width: 1260px;
+}
+#logo-2{
+    width: 42px;
+    height: 28px;
+    position: relative;
+    top: -200px;
+    left: 625px;
+}
+.banner .heading{
+    font-family: "montserrat";
+    margin-left: 608px;
+    margin-top: -196px;
+}
+#banner-home{
+    margin-top: 100px;
+    margin-left: 583px;
+    font-family: "montserrat";
+    /* color: black;
+    text-decoration: none; */
+}
+#arrow{
+    top: 3px;
+    left: 5px;
+    position: relative;
+}
+#banner-shop{
+    margin-top: -35px;
+    margin-left: 663px;
+    display: flex;
+    font-family: "montserrat";
+    color: black;
+    ;
+}
+#yellow-frame{
+width: 700px;
+height: 50px;
+margin-left: 50px;
+margin-top: 120px;
+}
+.head-frame p{
+    font-family: "montserrat";
+    font-size: 13px;
+    display: inline-block;
+    position: relative;
+    left: -570px;
+    margin-right: 68px;
+    top: -20px;
+}
+#arg-sofa{
+    width: 100px;
+    height: 90px;
+    background-color:antiquewhite;
+    margin-left: 50px;
+}
+#product-bought p{
+    font-family: "montserrat";
+    font-size: 13px;
+}
+#p1{
+    margin-left: 182px;
+    margin-top: -55px;
+}
+#p2{
+    margin-left: 304px;
+    margin-top: -29px;
+}
+#box{
+    width: 20px;
+    height: 20px;
+    margin-left: 436px;
+    position: relative;
+    top: -31px;
+}
+#p3{
+    margin-left: 548px;
+    margin-top: -55px;
+}
+#bin{
+    width: 20px;
+    height: 20px;
+    margin-left: 686px;
+    position: relative;
+    top: -32px;
+}
+#cart-totals img{
+    width: 370px;
+    height: 360px;
+    margin-left: 783px;
+    position: relative;
+    top: -156px;
+}
+#cart-totals{
+    font-family: "montserrat";
+}
+#cart-totals h1{
+    position: relative;
+    left: 873px;
+    top: -530px;
+}
+#subtotal{
+    position: relative;
+    left: 840px;
+    top: -525px;
+    font-size: 14px;
+}
+#price-1{
+    position: relative;
+    left: 995px;
+    top: -555px;
+    font-size: 12px;
+    color:gray;
+}
+#total{
+    position: relative;
+    left: 840px;
+    top: -534px;
+    font-size: 14px;
+}
+#price-2{
+    position: relative;
+    left: 980px;
+    top: -570px;
+}
+#check-out{
+    width: 190px;
+    height: 50px;
+    font-size: 15px;
+    background-color: #F9F1E7;
+    border-radius: 16px;
+    position: relative;
+    left: 876px;
+    top: -540px;
+    border-width: 2px;
+}
+.services{
+    margin-top: -330px;
+}
+#yellow-frame-2{
+    width: 1260px;
+    margin-left: -6px;
+    height: 200px;
+    object-fit: cover;
+}
+#trophy{
+    width: 50px;
+    height: 50px;
+    margin-top: -127px;
+    display: flex;
+    margin-left: 30px;
+}
+#guarantee{
+    width: 50px;
+    height: 50px;
+    margin-top: -127px;
+    display: flex;
+    margin-left: 330px;
+}
+#freeship{
+    width: 50px;
+    height: 50px;
+    margin-top: -127px;
+    display: flex;
+    margin-left: 660px;
+}
+#support{
+    width: 50px;
+    height: 50px;
+    margin-top: -127px;
+    display: flex;
+    margin-left: 990px;
+}
+.services h4{
+    display: inline-flex;
+    font-family: "montserrat";
+} 
+.services dd{
+    /* display: inline-flex; */
+    font-family: "montserrat";
+    font-size: 13px;
+    color:gray;
+    font-weight: bold;
+} 
+ #h4-1{
+    margin-left: 85px;
+    position: relative;
+    top: -70px;
+ }
+ #dd-1{
+    margin-left: 85px;
+    position: relative;
+    top: -80px;
+ }
+ #h4-2{
+    margin-left: 385px;
+    position: relative;
+    top: -70px;
+ }
+ #dd-2{
+    margin-left: 385px;
+    position: relative;
+    top: -80px;
+ }
+ #h4-3{
+    margin-left: 715px;
+    position: relative;
+    top: -70px;
+ }
+ #dd-3{
+    margin-left: 715px;
+    position: relative;
+    top: -80px;
+ }
+ #h4-4{
+    margin-left: 1045px;
+    position: relative;
+    top: -70px;
+ }
+ #dd-4{
+    margin-left: 1045px;
+    position: relative;
+    top: -80px;
+ }
+ #footer-heading-1{
+    font-family: "montserrat";
+    margin-left: 100px;
+ }
+ #address{
+    font-family: "montserrat";
+    margin-left: 100px;
+    font-size: 12px;
+    color: grey;
+    margin-top: 30px;
+ }
+ .footer-nav-heading-1{
+    font-family: "montserrat";
+    display: inline-block;
+    font-size: 12px;
+    /* margin-left: 300px;
+    margin-top: -200px; */
+ }
+ .footer-nav-heading-2{
+    font-family: "montserrat";
+    display: inline-block;
+    font-size: 12px;
+ }
+ .footer-nav-heading-3{
+    font-family: "montserrat";
+    display: inline-block;
+    font-size: 12px;
+ }
+ ul.footer-nav-list{
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove padding */
+    margin: 0
+ }
+ .footer-nav-list{
+    font-family: "montserrat";
+    font-size: 12px;
+    font-weight: bold;
+ }
+ .footer-nav-container-1{
+    margin-left: 500px;
+    margin-top: -102px;
+ }
+ .footer-nav-container-2{
+    margin-left: 650px;
+    margin-top: -142px;
+ }
+ .footer-nav-container-3{
+    margin-left: 835px;
+    margin-block-start: -111px;
+ }
+ .footer-nav-container-3 input{
+    margin-left: 0px;
+    margin-block-start: -83px;
+ }
+ .footer-nav-container-3 button{
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: #fff;
+    font-weight: bold;
+    margin-left: 10px;
+ }
+ .footer-nav-container-3 input{
+    border : none; 
+    border-bottom: 2px solid black;
+    background-color: #fff;
+    
+ }
+ 
+#copy-right{
+    font-family: "montserrat";
+    font-size: 14px;
+    margin-left: 20px;
+}
+#hr-2{
+    margin-top: 125px;
+}
