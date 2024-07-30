@@ -9,7 +9,7 @@ function generateDefaultProductHTML() {
             <div class="column" id="column-1">
                 <div class="card-1">
                     <div class="product-container" id="sylthe">
-                        <img class="product-image" src="syltherine.png" alt="Sylthe">
+                        <img class="product-image" src="./img/syltherine.png" alt="Sylthe">
                         <span class="sale">
                             <p>-30%</p>
                         </span>
@@ -31,7 +31,7 @@ function generateDefaultProductHTML() {
                 </div>
                 <div class="card-2">
                     <div class="product-container" id="leviosa">
-                        <img class="product-image" src="leviosa.png" alt="Leviosa">
+                        <img class="product-image" src="./img/leviosa.png" alt="Leviosa">
                         <span class="sale">
                             <p>-0%</p>
                         </span> 
@@ -53,7 +53,7 @@ function generateDefaultProductHTML() {
                 </div>
                 <div class="card-3">
                     <div class="product-container" id="lolito">
-                        <img class="product-image" src="sofa.png" alt="Lolito">
+                        <img class="product-image" src="./img/sofa.png" alt="Lolito">
                         <span class="sale">
                             <p>-50%</p>
                         </span>
@@ -75,7 +75,7 @@ function generateDefaultProductHTML() {
                 </div> 
                 <div class="card-4">         
                     <div class="product-container" id="zephyr">
-                        <img class="product-image" src="zephyr.png" alt="Zephyr">
+                        <img class="product-image" src="./img/zephyr.png" alt="Zephyr">
                         <span class="sale">
                             <p>New</p>
                         </span> 
@@ -97,7 +97,7 @@ function generateDefaultProductHTML() {
                 </div>
                 <div class="card-5">         
                     <div class="product-container" id="grifo">
-                        <img class="product-image" src="grifo.png" alt="Grifo">
+                        <img class="product-image" src="./img/grifo.png" alt="Grifo">
                         <span class="sale">
                             <p>-0%</p>
                         </span> 
@@ -120,7 +120,7 @@ function generateDefaultProductHTML() {
                 <br>
                 <div class="card-6">         
                     <div class="product-container" id="muggo">
-                        <img class="product-image" src="muggo.png" alt="Muggo">
+                        <img class="product-image" src="./img/muggo.png" alt="Muggo">
                         <span class="sale">
                             <p>-0%</p>
                         </span> 
@@ -143,7 +143,7 @@ function generateDefaultProductHTML() {
                 <br>
                 <div class="card-7">         
                     <div class="product-container" id="pingky">
-                        <img class="product-image" src="pingky.png" alt="Pingky">
+                        <img class="product-image" src="./img/pingky.png" alt="Pingky">
                         <span class="sale">
                             <p>-50%</p>
                         </span> 
@@ -165,7 +165,7 @@ function generateDefaultProductHTML() {
                 </div>
                 <div class="card-8">         
                     <div class="product-container" id="potty">
-                        <img class="product-image" src="potty.png" alt="Potty">
+                        <img class="product-image" src="./img/potty.png" alt="Potty">
                         <span class="sale">
                             <p>-0%</p>
                         </span> 
